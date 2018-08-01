@@ -15,6 +15,11 @@ const addMessageToList = (message) => {
   document.querySelector('.results').appendChild(newLi)
 }
 
+const removeMessageFromList = () => {
+  const myList = document.getElementById('results')
+  myList.innerHTML = ''
+}
+
 
 const p1_pick_rock = () => {
     // Set CPU choice
